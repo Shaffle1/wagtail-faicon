@@ -21,7 +21,7 @@ $( document ).ready(function() {
             }
         });
 
-        $('.faicon-add').on('click', function(){
+        $(document).on('click', '.faicon-add', function(){
             $('body').addClass('faicon-active');
             $('.faicon-screen').addClass('show');
             icon_field = $('#'+$(this).data('id'));
