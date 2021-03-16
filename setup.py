@@ -7,14 +7,14 @@ with open("README.md", "r") as fh:
 
 
 setup(
-    name="django-faicon",
-    version="0.1.0",
-    author="Dan Atkinson",
-    author_email="dan@danatkinson.com",
-    description="Django Font Awesome 5 icon picker",
+    name="wagtail-faicon",
+    version="0.1.1",
+    author="Paul Woods",
+    author_email="shaffle8@yandex.ru",
+    description="Django Wagtail Font Awesome 5 icon picker",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/dantium/django-faicon",
+    url="https://github.com/shaffle1/wagtail-faicon",
     packages=find_packages(),
     include_package_data=True,
     classifiers=[
