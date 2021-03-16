@@ -5,24 +5,6 @@ Integrates a Font Awesome 5 icon picker in the Django admin interface. Picker in
 
 ## Documentation 
 
-### Install
-
-```python
-pip install django-faicon
-```
-Add `faicon` to `INSTALLED_APPS` in `settings`
-
-Add `path('faicon/', include('faicon.urls')),` to `urlpatterns` in `urls.py`
-
-Add the field to your model
-
-```python
-from faicon.fields import FAIconField
-
-class MyModel(models.Model):
-    icon = FAIconField()
-```
-
 ### Setup
 
 If you want to use Font Awesome Pro or a different version than the one included, download it and put it in your project static directory and name it `fontawesome`
