@@ -70,7 +70,6 @@ class IconWidget(Widget):
             ),
         }
         js = (
-            'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js',
             'faicon/js/list.min.js',
             'faicon/js/faicon.js',
         )
