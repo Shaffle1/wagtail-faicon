@@ -8,7 +8,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="wagtail-faicon",
-    version="0.1.1",
+    version="0.1.2",
     author="Paul Woods",
     author_email="shaffle8@yandex.ru",
     description="Django Wagtail Font Awesome 5 icon picker",
