@@ -73,4 +73,3 @@ class IconWidget(Widget):
             'faicon/js/list.min.js',
             'faicon/js/faicon.js',
         )
-

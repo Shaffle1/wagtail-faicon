@@ -1,3 +1,6 @@
+.faicon-widget {
+    z-index: 1000;
+}
 
 .faicon-widget .faicon-delete {
     color:red;
@@ -83,7 +86,7 @@ body.faicon-active {
 }
 
 .faicon-screen .search {
-    font-size: 24px;
+    font-size: 1rem;
     width: 220px;
     float: left;
     color: #495D63;
@@ -112,6 +115,21 @@ body.faicon-active {
     color: #495D63;
 }
 
+.faicon-content ul.list li > i {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.faicon-content ul.list li > span.label {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0 0 0;
+}
+
 .faicon-screen .list {
     margin-left: 0;
     padding-left: 0;
@@ -134,8 +152,9 @@ body.faicon-active {
 
 #faicon-style-select {
     color: #495D63;
+    width: 200px;
     margin-left: 20px;
-    margin-top: 12px;
+    margin-top: 0px;
 }
 
 .faicon-screen .list li .label {

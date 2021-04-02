@@ -26,7 +26,7 @@ def get_icon_list():
 
 def get_iconset_version():
     version = 'Font Awesome'
-    r = re.compile(' \* (.*?) by ')
+    r = re.compile(' \* (.*?) by ')  # noqa: W605
     if FA_CSS.startswith('http'):
         pass
     else:
